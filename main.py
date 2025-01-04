@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv("data.csv")
+data = pd.read_csv("recipe_data.csv")
 df = pd.DataFrame(data)
 print(df.head())
 print(df.info())
